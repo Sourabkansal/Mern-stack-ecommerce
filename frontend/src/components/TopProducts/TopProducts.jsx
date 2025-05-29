@@ -4,19 +4,19 @@ import { NavLink } from 'react-router-dom'
 
 const ProductDataa = [
     {
-       id:34,
+       id:"67e2a496810d2d87475a1bc1",
        img : "https://shopsy-tcj.netlify.app/assets/shirt-cwf9SKdB.png",
        title : "Casual Wear",
        description : " Experience premium quality with this men's casual shirt, crafted for unmatched comfort and style—perfect for any occasion. "
     },
     {
-        id:35,
+        id:"67e2a496810d2d87475a1bc2",
         img : "https://shopsy-tcj.netlify.app/assets/shirt2-XQzG6elp.png",
         title : "Printed shirt",
         description : "Elevate your style with this premium printed shirt, featuring superior quality fabric and eye-catching designs for any occasion.",
      },
      {
-        id:36,
+        id:"67e2a496810d2d87475a1bc3",
         img : "https://shopsy-tcj.netlify.app/assets/shirt3-HwQ10bVo.png",
         title : "Women shirt",
         description : "sophistication to your wardrobe with this women's shirt, made from high-quality fabric for comfort and lasting style."  

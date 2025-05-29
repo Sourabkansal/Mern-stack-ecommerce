@@ -68,7 +68,7 @@ const TopsellingProducts = () => {
            <div className="  flex flex-col gap-6  items-center sm:flex-row justify-center my-10  flex-wrap sm:gap-8   ">
              {newitemm.map((item) => {
                return (
-                 <NavLink key={item.id} to={`/product/${item.id}`}>
+                 <NavLink key={item.id} to={`/product/${item._id}`}>
                    <div>
                      <div className=" bg-white  flex flex-col justify-center items-center p-4 w-60 sm:w-56 border border-gray-300 rounded-lg  shadow-md hover:shadow-xl transition-all duration-200 ">
                        <div className="text-xs flex justify-end w-56 sm:w-48 font-semibold text-gray-400">
