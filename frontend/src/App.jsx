@@ -8,6 +8,7 @@ import { Outlet } from "react-router-dom";
 import {SearchContext} from "./components/contextStore/search"
 import { CartContextpovider } from "./components/contextStore/Cartcontext";
 import { UsercontextProvider } from "./components/contextStore/usercontext";
+import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 function App() {
   const [count, setCount] = useState(0);
 console.log(useContext(SearchContext))
@@ -18,6 +19,7 @@ console.log(useContext(SearchContext))
         <WishlistContextProvider>
           <ProductContextProvider>
             <CartContextpovider>
+              <ScrollToTop/>
               <Navbar />
               <Outlet />
               <Footer />

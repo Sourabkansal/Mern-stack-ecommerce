@@ -20,7 +20,7 @@ import { SearchProvider } from "./components/contextStore/search";
 import Signup from "./components/signup/signup.jsx";
 import Login from "./components/signup/login.jsx";
 import { UsercontextProvider } from "./components/contextStore/usercontext.jsx";
-
+import ScrollToTop from "./components/scrollToTop/ScrollToTop.jsx";
 import {
   Route,
   RouterProvider,
